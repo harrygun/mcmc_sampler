@@ -1,0 +1,183 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ANN_AMPLITUDE	sampler.c	64;"	d	file:
+ANN_PERIOD	sampler.c	63;"	d	file:
+BEGIN_COV_UPDATE	sampler.c	42;"	d	file:
+CosP_BAO	bao.c	21;"	d	file:
+CosP_BAO_s	bao.c	24;"	d	file:
+DEBUGV	optstruct.h	5;"	d
+DECREASE_STEP	sampler.c	59;"	d	file:
+GIVEMETASK	sampler.c	70;"	d	file:
+INCREASE_STEP	sampler.c	58;"	d	file:
+K_min	bao.c	50;"	d	file:
+Knum	bao.c	44;"	d	file:
+LAMOST	optstruct.h	/^      int PLANCK, SDSS, LAMOST;   \/\/include as prior.$/;"	m	struct:__anon1
+MAX_ACCEPT_TIME	sampler.c	54;"	d	file:
+MAX_COV_UPDATE	sampler.c	44;"	d	file:
+MAX_STAY_TIME	sampler.c	51;"	d	file:
+MIN_CONVERG	sampler.c	46;"	d	file:
+MPI	driver.c	25;"	d	file:
+MPI	testsampler.c	25;"	d	file:
+MUnum	bao.c	52;"	d	file:
+PLANCK	optstruct.h	/^      int PLANCK, SDSS, LAMOST;   \/\/include as prior.$/;"	m	struct:__anon1
+PN_BAO	bao.c	20;"	d	file:
+PN_BAO_s	bao.c	23;"	d	file:
+POWER_LEN	getfom.c	29;"	d	file:
+Powline	bao.c	41;"	d	file:
+RANDLEN	random.c	14;"	d	file:
+RANDLEN_TIME	random.c	13;"	d	file:
+RANDLEN_TIME	tmp.c	15;"	d	file:
+R_CRITERION	sampler.c	48;"	d	file:
+SDSS	optstruct.h	/^      int PLANCK, SDSS, LAMOST;   \/\/include as prior.$/;"	m	struct:__anon1
+T	sampler.h	/^        double *T;$/;"	m	struct:__anon5
+TAKERESULT	sampler.c	71;"	d	file:
+TAKETASK	sampler.c	72;"	d	file:
+TASK_FAIL	sampler.c	74;"	d	file:
+T_gaussian	random.h	/^          const gsl_rng_type *T_uniform, *T_gaussian;$/;"	m	struct:__anon4
+T_uniform	random.h	/^          const gsl_rng_type *T_uniform, *T_gaussian;$/;"	m	struct:__anon4
+UPDATE	sampler.c	40;"	d	file:
+WIND_SMOOTH	bao.c	58;"	d	file:
+_BIN_N_5_	bao.c	26;"	d	file:
+_DOMEA_PHOTO_	bao.c	63;"	d	file:
+_GET_FOM_	testngal.c	306;"	d	file:
+_H_BAO_	bao.h	3;"	d
+_H_GET_FOM_	getfom.h	3;"	d
+_H_MYRANDOM_	random.h	3;"	d
+_H_OPT_STRUCT_	optstruct.h	3;"	d
+_H_SAMPLER_	sampler.h	3;"	d
+_NO_TEST_	driver.c	392;"	d	file:
+_NO_TEST_	testsampler.c	413;"	d	file:
+aniw2	bao.c	/^  double aniw2(Cospar  *cp,Survpar * sp, double k, $/;"	f
+apert	optstruct.h	/^             fibdiam, mirdiam, apert;  \/\/fiber, mirror diameter; aperture factor$/;"	m	struct:__anon1
+area	optstruct.h	/^      double time, area, zmin, zmax;  \/\/ time: exposure time$/;"	m	struct:__anon2
+array	random.h	/^          double *arrtime, *array;$/;"	m	struct:__anon3
+arrtime	random.h	/^          double *arrtime, *array;$/;"	m	struct:__anon3
+baods2de	bao.c	/^    void baods2de( Fipar * fpara, Survpar * sp )$/;"	f
+baofish_one	bao.c	/^  void baofish_one(Fipar * fpara, Survpar * sp, double *dpdp, $/;"	f
+baofisher	bao.c	/^  void baofisher(Fipar * fpara,  Survpar * sp, double *** Pk)$/;"	f
+bin	optstruct.h	/^      int bin, npt; \/\/ npt: # of pointings$/;"	m	struct:__anon2
+camblist	optstruct.h	/^      char *name, *prefix, *cmbfish_file, *camblist;$/;"	m	struct:__anon1
+camblist_np	optstruct.h	/^      int random, dim_cmb, camblist_np; $/;"	m	struct:__anon1
+chainpar	sampler.h	/^      } chainpar;$/;"	t	typeref:struct:__anon5
+chains	sampler.h	/^      double ***chains, **currentpoint, **trialpoint, ***covmat,$/;"	m	struct:__anon6
+chainvar	sampler.h	/^      } chainvar;$/;"	t	typeref:struct:__anon6
+checkconverg	sampler.h	/^        int startrandom, checkconverg, simpleconverg, debug;$/;"	m	struct:__anon5
+cmbfish_file	optstruct.h	/^      char *name, *prefix, *cmbfish_file, *camblist;$/;"	m	struct:__anon1
+converg	sampler.h	/^      int converg, min_chain;$/;"	m	struct:__anon6
+convergence_test	sampler.c	/^  void convergence_test( chainpar *chain, chainvar *chain_var )  {$/;"	f
+covmat	sampler.h	/^      double ***chains, **currentpoint, **trialpoint, ***covmat,$/;"	m	struct:__anon6
+cp	sampler.h	/^      Cospar  *cp;$/;"	m	struct:__anon7
+currentpoint	sampler.h	/^      double ***chains, **currentpoint, **trialpoint, ***covmat,$/;"	m	struct:__anon6
+debug	optstruct.h	/^      int line, debug;$/;"	m	struct:__anon1
+debug	sampler.h	/^        int startrandom, checkconverg, simpleconverg, debug;$/;"	m	struct:__anon5
+derp	bao.c	/^  double derp( Fipar * fpara, Survpar * sp, double *spbini,$/;"	f
+dim_cmb	optstruct.h	/^      int random, dim_cmb, camblist_np; $/;"	m	struct:__anon1
+dpdsp	bao.c	/^  void dpdsp( Fipar * fpara, Survpar * sp, double *spbini, double *dpdp,$/;"	f
+dzmax	optstruct.h	/^             zmin, zmax, dzmin, dzmax;$/;"	m	struct:__anon1
+dzmin	optstruct.h	/^             zmin, zmax, dzmin, dzmax;$/;"	m	struct:__anon1
+eff	optstruct.h	/^      Interpar *eff;  \/\/ effeciency.$/;"	m	struct:__anon1
+eff_func	getfom.c	/^  double eff_func(survey_setting *surv, double lam) {$/;"	f
+eff_init	getfom.c	/^  void eff_init(survey_setting *surv) {$/;"	f
+eff_init	optstruct.h	/^      int eff_init;$/;"	m	struct:__anon1
+eigenvalue	sampler.h	/^             ***eigenvec, **point_stepsize , **eigenvalue, $/;"	m	struct:__anon6
+eigenvec	sampler.h	/^             ***eigenvec, **point_stepsize , **eigenvalue, $/;"	m	struct:__anon6
+eqwdist	getfom.c	/^  double eqwdist(double m, double z, void *param )  {$/;"	f
+estimate_cov	sampler.c	/^  void estimate_cov(chainpar *chain, chainvar *chain_var, int chain_n)   {$/;"	f
+estimate_point_step	sampler.c	/^  void estimate_point_step(chainpar *chain, chainvar *chain_var, int chain_n)  {        $/;"	f
+exptime	optstruct.h	/^      double time, minexptime, maxexptime, exptime, overheadtime, maxarea, $/;"	m	struct:__anon1
+fibdiam	optstruct.h	/^             fibdiam, mirdiam, apert;  \/\/fiber, mirror diameter; aperture factor$/;"	m	struct:__anon1
+fmat_cb	sampler.h	/^      double **fmat_cmb, **fmat_cb, **fmat_cb_inv;$/;"	m	struct:__anon7
+fmat_cb_inv	sampler.h	/^      double **fmat_cmb, **fmat_cb, **fmat_cb_inv;$/;"	m	struct:__anon7
+fmat_cmb	sampler.h	/^      double **fmat_cmb, **fmat_cb, **fmat_cb_inv;$/;"	m	struct:__anon7
+fname_best	sampler.h	/^        char **fname_chain, **fname_best; $/;"	m	struct:__anon5
+fname_chain	sampler.h	/^        char **fname_chain, **fname_best; $/;"	m	struct:__anon5
+fom_info	sampler.h	/^      } fom_info;$/;"	t	typeref:struct:__anon7
+fompower_init	getfom.c	/^  int fompower_init(char **name, double ***power, int n) {$/;"	f
+fompower_interp_init	getfom.c	/^  int fompower_interp_init( char **name,  Interpar ** power, int n )  {$/;"	f
+fov	optstruct.h	/^      double fov, nfib,  $/;"	m	struct:__anon1
+fpara	sampler.h	/^      Fipar *fpara; $/;"	m	struct:__anon7
+gauss_x	sampler.h	/^             *scale,  *gauss_x;$/;"	m	struct:__anon6
+get_fom	getfom.c	/^  double get_fom( void *inform, void *arg, int *fail  )  {$/;"	f
+get_galaxies	getfom.c	/^  void get_galaxies( Cospar *cp, Survpar * sp, survey_config *s, $/;"	f
+getfluxlim	getfom.c	/^  void  getfluxlim(  Cospar *cp, Survpar * sp, survey_config *s, survey_setting *surv, $/;"	f
+inisigma	sampler.h	/^        double *startp, *lowbound, *upbound, *inisigma;$/;"	m	struct:__anon5
+init_bao	bao.c	/^  void init_bao( Cospar * cp, Survpar * sp )$/;"	f
+line	optstruct.h	/^      int line, debug;$/;"	m	struct:__anon1
+loop_num	sampler.h	/^     int *point_num, *update_num, *loop_num;$/;"	m	struct:__anon6
+lowbound	sampler.h	/^        double *startp, *lowbound, *upbound, *inisigma;$/;"	m	struct:__anon5
+maglim_fiber	getfom.c	/^  double maglim_fiber(double mag, void *para)  {$/;"	f
+main	driver.c	/^  int main( int argc, char *argv[] ) {$/;"	f
+main	getdist.c	/^  int main( int argc, char *argv[] ) {$/;"	f
+main	random.c	/^  int main( )  {$/;"	f
+main	testngal.c	/^  int main( int argc, char *argv[] ) {$/;"	f
+main	testsampler.c	/^  int main( int argc, char *argv[] ) {$/;"	f
+main	tmp.c	/^  int main( )  {$/;"	f
+master	sampler.c	/^  int master(chainpar *chain,  double (*chi2)(void *inform, void *arg, int *x), void *info )  {$/;"	f
+max_point	sampler.h	/^            max_point, temptype;$/;"	m	struct:__anon5
+maxarea	optstruct.h	/^      double time, minexptime, maxexptime, exptime, overheadtime, maxarea, $/;"	m	struct:__anon1
+maxexptime	optstruct.h	/^      double time, minexptime, maxexptime, exptime, overheadtime, maxarea, $/;"	m	struct:__anon1
+min_chain	sampler.h	/^      int converg, min_chain;$/;"	m	struct:__anon6
+minexptime	optstruct.h	/^      double time, minexptime, maxexptime, exptime, overheadtime, maxarea, $/;"	m	struct:__anon1
+mirdiam	optstruct.h	/^             fibdiam, mirdiam, apert;  \/\/fiber, mirror diameter; aperture factor$/;"	m	struct:__anon1
+name	optstruct.h	/^      char *name, *prefix, *cmbfish_file, *camblist;$/;"	m	struct:__anon1
+narray	random.h	/^          int state, narray, narrtime;$/;"	m	struct:__anon3
+narrtime	random.h	/^          int state, narray, narrtime;$/;"	m	struct:__anon3
+nchain	sampler.h	/^        int size, npoint, npara, nchain, $/;"	m	struct:__anon5
+nfib	optstruct.h	/^      double fov, nfib,  $/;"	m	struct:__anon1
+ngal	getfom.c	/^  void ngal( Cospar *cp, Survpar * sp, survey_config *s, $/;"	f
+npara	sampler.h	/^        int size, npoint, npara, nchain, $/;"	m	struct:__anon5
+npoint	sampler.h	/^        int size, npoint, npara, nchain, $/;"	m	struct:__anon5
+npower_input	sampler.h	/^      int npower_input;  \/\/, fail;$/;"	m	struct:__anon7
+npt	optstruct.h	/^      int bin, npt; \/\/ npt: # of pointings$/;"	m	struct:__anon2
+nptmax	optstruct.h	/^      int nptmax;$/;"	m	struct:__anon1
+overheadtime	optstruct.h	/^      double time, minexptime, maxexptime, exptime, overheadtime, maxarea, $/;"	m	struct:__anon1
+para2sconfig	optstruct.c	/^  void para2sconfig(double *para, survey_config *s, Cospar *cp, Survpar * sp) {$/;"	f
+pobs	bao.c	/^  double pobs( Fipar * fpara, Survpar * sp, double *spbini, double *dp,$/;"	f
+point_num	sampler.h	/^     int *point_num, *update_num, *loop_num;$/;"	m	struct:__anon6
+point_stepsize	sampler.h	/^             ***eigenvec, **point_stepsize , **eigenvalue, $/;"	m	struct:__anon6
+prefix	optstruct.h	/^      char *name, *prefix, *cmbfish_file, *camblist;$/;"	m	struct:__anon1
+psarr	sampler.h	/^      double *** psarr;$/;"	m	struct:__anon7
+r_gaussian	random.h	/^          gsl_rng *r_uniform, *r_gaussian;$/;"	m	struct:__anon4
+r_uniform	random.h	/^          gsl_rng *r_uniform, *r_gaussian;$/;"	m	struct:__anon4
+randarray	random.h	/^        } randarray;$/;"	t	typeref:struct:__anon3
+random	optstruct.h	/^      int random, dim_cmb, camblist_np; $/;"	m	struct:__anon1
+random	sampler.h	/^      randpara *random;$/;"	m	struct:__anon6
+random_gauss	random.c	/^  double random_gauss(randpara *random, double sigma)  {$/;"	f
+random_init	random.c	/^  int random_init(randpara *random)  {$/;"	f
+random_uniform	random.c	/^  double random_uniform(randpara *random, double lower, double upper)  {$/;"	f
+randpara	random.h	/^        } randpara;$/;"	t	typeref:struct:__anon4
+randvec_gauss	random.c	/^  void randvec_gauss(randpara *random, double *array, int n) {$/;"	f
+s	sampler.h	/^      survey_config *s;$/;"	m	struct:__anon7
+scale	sampler.h	/^             *scale,  *gauss_x;$/;"	m	struct:__anon6
+sconfig2para	optstruct.c	/^  void sconfig2para( survey_config *s, double *para) {$/;"	f
+sconfig_cp	optstruct.c	/^  void sconfig_cp( survey_config *s1, survey_config *s2) {$/;"	f
+select_subao	bao.c	/^    void select_subao( Fipar * fpara, Survpar * sp, int *vec, int dim )$/;"	f
+simpleconverg	sampler.h	/^        int startrandom, checkconverg, simpleconverg, debug;$/;"	m	struct:__anon5
+size	sampler.h	/^        int size, npoint, npara, nchain, $/;"	m	struct:__anon5
+slave	sampler.c	/^  int slave( chainpar *chain, double (*chi2)(void *inform, void *arg, int *x),  void *info)  {$/;"	f
+sp	sampler.h	/^      Survpar * sp;$/;"	m	struct:__anon7
+startp	sampler.h	/^        double *startp, *lowbound, *upbound, *inisigma;$/;"	m	struct:__anon5
+startrandom	sampler.h	/^        int startrandom, checkconverg, simpleconverg, debug;$/;"	m	struct:__anon5
+state	random.h	/^          int state, narray, narrtime;$/;"	m	struct:__anon3
+surv	sampler.h	/^      survey_setting *surv;$/;"	m	struct:__anon7
+survey_config	optstruct.h	/^      } survey_config;$/;"	t	typeref:struct:__anon2
+survey_setting	optstruct.h	/^      } survey_setting;$/;"	t	typeref:struct:__anon1
+temperature_sched	sampler.c	/^  void temperature_sched( chainpar* chain, chainvar *chain_var, int chain_n)  {$/;"	f
+tempspectro	getfom.c	/^  double tempspectro(double lam) {$/;"	f
+temptype	sampler.h	/^            max_point, temptype;$/;"	m	struct:__anon5
+testchi2	testsampler.c	/^  double testchi2( void *inform, void *arg, int *fail  )  {$/;"	f
+time	optstruct.h	/^      double time, area, zmin, zmax;  \/\/ time: exposure time$/;"	m	struct:__anon2
+time	optstruct.h	/^      double time, minexptime, maxexptime, exptime, overheadtime, maxarea, $/;"	m	struct:__anon1
+trialpoint	sampler.h	/^      double ***chains, **currentpoint, **trialpoint, ***covmat,$/;"	m	struct:__anon6
+try_newpoint	sampler.c	/^  void try_newpoint(chainpar *chain, chainvar *chain_var, int chain_n) {$/;"	f
+upbound	sampler.h	/^        double *startp, *lowbound, *upbound, *inisigma;$/;"	m	struct:__anon5
+update_num	sampler.h	/^     int *point_num, *update_num, *loop_num;$/;"	m	struct:__anon6
+veff_init	bao.c	/^  void veff_init( SCpar * scp, double *** veff, $/;"	f
+zmax	optstruct.h	/^             zmin, zmax, dzmin, dzmax;$/;"	m	struct:__anon1
+zmax	optstruct.h	/^      double time, area, zmin, zmax;  \/\/ time: exposure time$/;"	m	struct:__anon2
+zmin	optstruct.h	/^             zmin, zmax, dzmin, dzmax;$/;"	m	struct:__anon1
+zmin	optstruct.h	/^      double time, area, zmin, zmax;  \/\/ time: exposure time$/;"	m	struct:__anon2
